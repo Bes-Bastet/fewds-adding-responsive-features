@@ -1,0 +1,130 @@
+/*Media Styles for Smaller Screens*/
+@media only screen and (max-width: 1108px) {
+[id*="social"] {
+    position: absolute;
+    top: 82px;
+    right: 4px;
+    width: auto;
+    z-index: 2;
+}
+.wrapper {
+    width: 90%
+}
+}
+/*Media Styles for Tablets1*/
+@media only screen and (max-width: 900px) {
+    body {
+        font-size: 85%;
+    }
+[id*="logo.h1"] {
+        width: 35px;
+        height: 35px
+}
+[id*="logo.h2"] {
+        font-size: 2.2em;
+}
+[id*="social"] {
+        position: 72px;
+        
+}
+[id*="social"] {
+        position: absolute;
+        top: 82px;
+        right: 4px;
+        width: auto;
+        z-index: 2;
+}
+
+[class*="col-1"] {
+    float: left;
+    width: 32%;
+}
+  
+[class="col-2"] {
+    float: left;
+    width: 66%;
+}
+  
+[class*="col-3 p"] {
+    -moz-column-rule: 1px dotted #ccc;
+    -webkit-column-rule: 1px dotted #ccc;
+    column-rule: 1px dotted #ccc;
+    -moz-column-gap: 1.5em;
+    -webkit-column-gap: 1.5em;
+    column-gap: 1.5em;
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+  }
+    
+.wrapper {
+            width: 90%
+}
+    
+    }    
+
+    /*Media Styles for Tablets2*/
+@media only screen and (max-width: 750px) {
+#navbar nav a {
+    font-size: 0.9em;
+}  
+#logo h1 {
+        width: 35px;
+        height: 35px
+}
+#logo h2 {
+        font-size: 2.2em;
+}
+#social {
+        position: 72px;
+        
+}
+#social {
+        position: absolute;
+        top: 82px;
+        right: 4px;
+        width: auto;
+        z-index: 2;
+}
+
+[class*="col-"] {
+    width: 100%;
+    margin-left: 0px;
+    float: none;
+}
+[class*="col-1"] {
+    float: left;
+    width: 32%;
+}
+  
+[class*="col-2"] {
+    float: left;
+    width: 66%;
+}
+  
+[class*="col-3 p"] {
+    -moz-column-rule: 1px dotted #ccc;
+    -webkit-column-rule: 1px dotted #ccc;
+    column-rule: 1px dotted #ccc;
+    -moz-column-gap: 1.5em;
+    -webkit-column-gap: 1.5em;
+    column-gap: 1.5em;
+    -moz-column-count:1;
+    -webkit-column-count: 1;
+    column-count: 1;
+  }
+
+.border-right {
+      border: 0px;
+  }
+
+#details div {
+      height: auto;
+  }
+    
+.wrapper {
+            width: 100%
+}
+} 
+
+    
